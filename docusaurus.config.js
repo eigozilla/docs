@@ -27,11 +27,12 @@ module.exports = {
           label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/HarukiKinoshita/Eigodzilla',
-          label: 'GitHub',
-          position: 'right',
-        },
+        {to: 'contribute', label: 'Contribute', position: 'right'}
+        // {
+        //   href: 'https://github.com/eigodzilla/eigodzilla',
+        //   label: 'Contribute',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {

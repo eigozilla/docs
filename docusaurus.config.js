@@ -5,8 +5,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Eigodzilla',
   tagline: '英文法のすべてがここに。',
-  url: 'https://eigodzilla.github.io',
-  baseUrl: '/eigodzilla/',
+  url: 'https://eigodzilla.netlify.app',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

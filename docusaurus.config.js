@@ -83,6 +83,32 @@ module.exports = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+
+      // Dark/light switch icon options
+      switchConfig: {
+        // Icon for the switch while in dark mode
+        darkIcon: '\u{1f319}',
+
+        // CSS to apply to dark icon,
+        // React inline style object
+        // see https://reactjs.org/docs/dom-elements.html#style
+        darkIconStyle: {
+          marginLeft: '2px',
+        },
+
+        // Unicode icons such as '\u2600' will work
+        // Unicode with 5 chars require brackets: '\u{1F602}'
+        lightIcon: '\u{02600}',
+
+        lightIconStyle: {
+          marginLeft: '1px',
+        },
+      },
+    },
   },
   presets: [
     [
@@ -93,6 +119,25 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
+          admonitions: {
+            options: {
+              infima: true,
+            },
+            customTypes: {
+              grammar: {
+                ifmClass: 'alert alert--info',
+                keyword: 'grammar',
+                svg:
+                  '<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M16 7.553l6 7.447h-19v9h-1v-23h20l-6 6.553zm-13-5.553v12h16.91l-5.228-6.489 5.046-5.511h-16.728z"/></svg>'
+              },
+              example: {
+                ifmClass: 'alert alert--secondary',
+                keyword: 'example',
+                svg:
+                  '<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M16 7.553l6 7.447h-19v9h-1v-23h20l-6 6.553zm-13-5.553v12h16.91l-5.228-6.489 5.046-5.511h-16.728z"/></svg>'
+              },
+            }
+          },
         },
         blog: {
           showReadingTime: true,

@@ -4,32 +4,29 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'パワフルな検索機能。',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        知りたい情報にダイレクトにアクセス。目次と索引を探す手間とはおさらばです。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '必要な情報を、必要なだけ。',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        まずは要点だけを、わかりやすく。「続きを読む」から詳しい解説にアクセスしましょう。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '完全無料。広告ゼロ。',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Eigodzillaの運営は寄付によって支えられています。広告に邪魔されずに、学習に専念できます。
       </>
     ),
   },

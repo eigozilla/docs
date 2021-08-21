@@ -44,8 +44,12 @@ module.exports = {
           title: '学習する',
           items: [
             {
-              label: 'はじめに',
-              to: '/intro',
+              label: '目次',
+              to: '/menu',
+            },
+            {
+              label: 'Eigodzillaの紹介',
+              to: '/introduction',
             },
             {
               label: 'Blog',

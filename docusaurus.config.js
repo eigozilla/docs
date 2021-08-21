@@ -17,64 +17,62 @@ module.exports = {
       title: 'Eigodzilla',
       logo: {
         alt: 'Eigodzilla Logo',
-        src: 'img/logo.svg',
+        src: 'img/icon_temporary.svg',
+        srcDark: 'img/icon_temporary.svg',
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {to: 'contribute', label: 'Contribute', position: 'right'}
+        // {
+        //   type: 'doc',
+        //   docId: 'intro',
+        //   position: 'left',
+        //   label: '教材',
+        // },
+        // {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: 'contribute', label: 'Contribute', position: 'right'},
         // {
         //   href: 'https://github.com/eigodzilla/eigodzilla',
         //   label: 'Contribute',
         //   position: 'right',
         // },
+        { type: 'search', position: 'right', },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '学習する',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'はじめに',
+              to: '/intro',
+            },
+            {
+              label: 'Blog',
+              to: '/blog',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '貢献する',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Slack',
+              href: 'https://slack.com/intl/ja-jp/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/eigodzilla/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+              label: 'Donation',
+              href: 'https://stripe.com/jp',
+            }
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
           ],
         },
       ],
@@ -87,6 +85,9 @@ module.exports = {
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
+
+      // Should we use the prefers-color-scheme media-query,
+      // using user system preferences, instead of the hardcoded defaultMode
       respectPrefersColorScheme: false,
 
       // Dark/light switch icon options
@@ -110,12 +111,26 @@ module.exports = {
         },
       },
     },
+    algolia: {
+      apiKey: 'YOUR_API_KEY',
+      indexName: 'YOUR_INDEX_NAME',
+      // Optional: see doc section bellow
+      contextualSearch: true,
+      // Optional: Algolia search parameters
+      searchParameters: {},
+      //... other Algolia params
+    },
+    // Relative to your site's "static" directory.
+    // Cannot be SVGs. Can be external URLs too.
+    image: 'img/sgc-53AjL2h_eO8-unsplash.jpg',
   },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
+          // docs-only mode
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
@@ -149,6 +164,14 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      "docusaurus2-dotenv",
+      {
+        systemvars: true,
       },
     ],
   ],

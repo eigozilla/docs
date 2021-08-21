@@ -2,9 +2,11 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# はじめに
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Eigodzilla の使い方を5分でマスターしましょう！
+
+![iPad](./assets/files__combaglsea6a_large_2x.jpg)
 
 ## Getting Started
 

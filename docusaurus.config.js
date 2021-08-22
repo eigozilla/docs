@@ -148,7 +148,8 @@ module.exports = {
     image: 'img/icon_temporary.png',
     metadatas: [
       { name: 'og:title', content: 'Eigozilla | 英文法のすべてがここに。' },
-      { name: 'twitter:card', content: 'summary' }
+      { name: 'og:description', content: '完全無料・広告ゼロのオンライン英文法学習サイト。パワフルな検索で知りたい情報にアクセス。' },
+      { name: 'twitter:card', content: 'summary' },
     ],
   },
   presets: [

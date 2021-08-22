@@ -3,20 +3,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Eigodzilla',
+  title: 'Eigozilla',
   tagline: '英文法のすべてがここに。',
-  url: 'https://eigodzilla.netlify.app',
+  url: 'https://eigozilla.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'eigodzilla', // Usually your GitHub org/user name.
-  projectName: 'eigodzilla', // Usually your repo name.
+  organizationName: 'eigozilla', // Usually your GitHub org/user name.
+  projectName: 'eigozilla', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Eigodzilla',
+      title: 'Eigozilla',
       logo: {
-        alt: 'Eigodzilla Logo',
+        alt: 'Eigozilla Logo',
         src: 'img/icon_temporary.svg',
         srcDark: 'img/icon_temporary.svg',
       },
@@ -30,7 +30,7 @@ module.exports = {
         // {to: '/blog', label: 'Blog', position: 'left'},
         // {to: 'contribute', label: 'Contribute', position: 'right'},
         // {
-        //   href: 'https://github.com/eigodzilla/eigodzilla',
+        //   href: 'https://github.com/eigozilla/eigozilla',
         //   label: 'Contribute',
         //   position: 'right',
         // },
@@ -48,7 +48,7 @@ module.exports = {
               to: '/menu',
             },
             {
-              label: 'Eigodzillaの紹介',
+              label: 'Eigozillaの紹介',
               to: '/introduction',
             },
             {
@@ -66,7 +66,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/eigodzilla/',
+              href: 'https://github.com/eigozilla/',
             },
             {
               label: 'Donation',
@@ -80,7 +80,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Eigodzilla Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Eigozilla Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -138,7 +138,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/eigodzilla/eigodzilla/blob/master/',
+            'https://github.com/eigozilla/eigozilla/blob/master/',
           admonitions: {
             options: {
               infima: true,
@@ -163,7 +163,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/eigodzilla/eigodzilla/blob/master/',
+            'https://github.com/eigozilla/eigozilla/blob/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

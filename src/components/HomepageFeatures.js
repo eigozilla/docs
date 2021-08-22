@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Eigodzillaの運営は寄付によって支えられています。広告に邪魔されずに、学習に専念できます。
+        Eigozillaの運営は寄付によって支えられています。広告に邪魔されずに、学習に専念できます。
       </>
     ),
   },

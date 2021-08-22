@@ -126,7 +126,11 @@ module.exports = {
     },
     // Relative to your site's "static" directory.
     // Cannot be SVGs. Can be external URLs too.
-    image: 'img/sgc-53AjL2h_eO8-unsplash.jpg',
+    image: 'img/icon_temporary.png',
+    metadatas: [
+      { name: 'og:title', content: 'Eigozilla | 英文法のすべてがここに。' },
+      { name: 'twitter:card', content: 'summary' }
+    ],
   },
   presets: [
     [

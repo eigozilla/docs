@@ -19,22 +19,32 @@ module.exports = {
         alt: 'Eigozilla Logo',
         src: 'img/icon_temporary.svg',
         srcDark: 'img/icon_temporary.svg',
+        href: '/menu'
       },
       items: [
-        // {
-        //   type: 'doc',
-        //   docId: 'intro',
-        //   position: 'left',
-        //   label: '教材',
-        // },
+        {
+          type: 'doc',
+          docId: 'menu',
+          position: 'left',
+          label: '学習する',
+        },
+        { 
+          to: 'donate', 
+          position: 'right',
+          label: '寄付する',
+        },
+        { 
+          to: 'participate', 
+          position: 'right',
+          label: '参加する',
+        },
         // {to: '/blog', label: 'Blog', position: 'left'},
-        // {to: 'contribute', label: 'Contribute', position: 'right'},
         // {
         //   href: 'https://github.com/eigozilla/eigozilla',
         //   label: 'Contribute',
         //   position: 'right',
         // },
-        { type: 'search', position: 'right', },
+        { type: 'search', position: 'left', },
       ],
     },
     footer: {
@@ -44,12 +54,12 @@ module.exports = {
           title: '学習する',
           items: [
             {
-              label: '目次',
+              label: 'メニュー',
               to: '/menu',
             },
             {
               label: 'Eigozillaの紹介',
-              to: '/introduction',
+              to: '/',
             },
           ],
         },
@@ -57,8 +67,12 @@ module.exports = {
           title: '貢献する',
           items: [
             {
-              label: '貢献する',
-              to: '/contribute',
+              label: '参加する',
+              to: '/participate',
+            },
+            {
+              label: '寄付する',
+              to: '/donate',
             },
             {
               label: 'Slack',
@@ -119,6 +133,7 @@ module.exports = {
         },
       },
     },
+    hideableSidebar: true,
     algolia: {
       apiKey: 'YOUR_API_KEY',
       indexName: 'YOUR_INDEX_NAME',

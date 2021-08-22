@@ -1,10 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # 未来完了形
-
-**[will + 完了形]** で表される未来完了形には、3つの用法があります。
 
 ## 未来完了形とは
 

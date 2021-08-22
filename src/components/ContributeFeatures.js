@@ -4,35 +4,26 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'パワフルな検索機能。',
+    title: '英語学習のアップデート',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        知りたい情報にダイレクトにアクセス。目次と索引を探す手間とはおさらばです。
+        質が高く手軽に使える文法書を無料で公開することで、日本人の英語学習を加速させたい。参入障壁を下げ、学習の負担を減らすことで、知のエコシステムを広げます。
       </>
     ),
   },
   {
-    title: '必要な情報を、必要なだけ。',
+    title: '媒体のアップデート',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        まずは要点だけを、わかりやすく。「続きを読む」から詳しい解説にアクセスしましょう。
-      </>
-    ),
-  },
-  {
-    title: '完全無料。広告ゼロ。',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Eigozillaの運営は寄付によって支えられています。広告に邪魔されずに、学習に専念できます。
+        ウェブでは、紙の媒体と比べてはるかに簡単に、たくさんのことをできるようになります。全文検索を使えば、目次や索引を引くことなく、知りたい情報に直接アクセス。
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -48,9 +39,9 @@ function Feature({Svg, title, description}) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={clsx('hero hero--primary', styles.features)}>
+    <section className={styles.features}>
       <div className="container">
-        {/* <h2 className="text--center">3つの特徴</h2> */}
+        <h2 className="text--center">開発コンセプト</h2>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

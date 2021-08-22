@@ -51,15 +51,15 @@ module.exports = {
               label: 'Eigozillaの紹介',
               to: '/introduction',
             },
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
           ],
         },
         {
           title: '貢献する',
           items: [
+            {
+              label: '貢献する',
+              to: '/contribute',
+            },
             {
               label: 'Slack',
               href: 'https://slack.com/intl/ja-jp/',
@@ -75,8 +75,12 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'コミュニティ',
           items: [
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
           ],
         },
       ],

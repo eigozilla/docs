@@ -29,7 +29,7 @@ If we watch "Harry Potter" tonight, I **will have watched** the movie three time
 ## 継続を表す用法
 
 :::grammar
-We **have been married** to for twenty years next month.   
+We **will have been married** for twenty years next month.   
 私たちは来月で結婚して20年になります。
 :::
 

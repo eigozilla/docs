@@ -13,15 +13,12 @@ sidebar_position: 1
 
 ## 完了・結果を表す用法
 
-:::grammar
+:::grammar 
 I have finished my homework.   
 私は宿題を終えてしまった。
 :::
 
 
-<details>
-  <summary>have been to と have gone to の違い</summary>
-  <div>
-    have been to は**経験**を表し、have gone to は**結果**を表します。
-  </div>
-</details>
+:::note have been to と have gone to の違い
+have been to は**経験**を表し、have gone to は**結果**を表します。
+:::

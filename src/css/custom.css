@@ -16,6 +16,7 @@
   --ifm-color-primary-lighter: #005eeb;
   --ifm-color-primary-lightest: #0a6dff;
   --ifm-code-font-size: 95%;
+  --ifm-color-secondary-contrast-background: #F3F4F6;
 }
 
 .docusaurus-highlight-code-line {
@@ -39,4 +40,8 @@ html[data-theme='dark'] {
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.admonition-note .admonition-heading h5 {
+  text-transform: none !important;
 }

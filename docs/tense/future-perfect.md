@@ -15,6 +15,7 @@ sidebar_position: 2
 :::grammar
 Ken **will have returned** to Japan by next month.   
 ケンは来月までに日本に戻ってくるだろう。
+<audio controls src={require('../assets/media/future-perfect-1.mp3').default} />
 :::
 
 **by next month「来月までに」**が、未来のある時点を表しています。その時点までにケンが「日本に戻る」という行為を終えていることが予想されるので、未来完了形を使って表現することができます。
@@ -24,6 +25,7 @@ Ken **will have returned** to Japan by next month.
 :::grammar
 If we watch "Harry Potter" tonight, I **will have watched** the movie three times.   
 今夜「ハリーポッター」を観れば、私はその映画を3回観たことになる。
+<audio controls src={require('../assets/media/future-perfect-2.mp3').default} />
 :::
 
 ## 継続を表す用法
@@ -31,6 +33,7 @@ If we watch "Harry Potter" tonight, I **will have watched** the movie three time
 :::grammar
 We **will have been married** for twenty years next month.   
 私たちは来月で結婚して20年になります。
+<audio controls src={require('../assets/media/future-perfect-3.mp3').default} />
 :::
 
 :::tip

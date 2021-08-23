@@ -19,7 +19,7 @@ module.exports = {
         alt: 'Eigozilla Logo',
         src: 'img/icon_temporary.svg',
         srcDark: 'img/icon_temporary.svg',
-        href: '/menu'
+        href: '/'
       },
       items: [
         {
@@ -29,14 +29,14 @@ module.exports = {
           label: '学習する',
         },
         { 
-          to: 'donate', 
-          position: 'right',
-          label: '寄付する',
-        },
-        { 
           to: 'participate', 
-          position: 'right',
+          position: 'left',
           label: '参加する',
+        },
+        {
+          to: 'donate',
+          position: 'left',
+          label: '寄付する',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         // {
@@ -44,7 +44,7 @@ module.exports = {
         //   label: 'Contribute',
         //   position: 'right',
         // },
-        { type: 'search', position: 'left', },
+        { type: 'search', position: 'right', },
       ],
     },
     footer: {
@@ -81,10 +81,6 @@ module.exports = {
             {
               label: 'GitHub',
               href: 'https://github.com/eigozilla/',
-            },
-            {
-              label: 'Donation',
-              href: 'https://stripe.com/jp',
             }
           ],
         },
@@ -172,13 +168,13 @@ module.exports = {
                 ifmClass: 'alert alert--info',
                 keyword: 'grammar',
                 svg:
-                  '<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M16 7.553l6 7.447h-19v9h-1v-23h20l-6 6.553zm-13-5.553v12h16.91l-5.228-6.489 5.046-5.511h-16.728z"/></svg>'
+                  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M4.75 2.5a.25.25 0 00-.25.25v9.91l3.023-2.489a.75.75 0 01.954 0l3.023 2.49V2.75a.25.25 0 00-.25-.25h-6.5zM3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 01-1.227.579L8 11.722l-3.773 3.107A.75.75 0 013 14.25V2.75z"></path></svg>'
               },
               example: {
                 ifmClass: 'alert alert--secondary',
                 keyword: 'example',
                 svg:
-                  '<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M16 7.553l6 7.447h-19v9h-1v-23h20l-6 6.553zm-13-5.553v12h16.91l-5.228-6.489 5.046-5.511h-16.728z"/></svg>'
+                  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M4.75 2.5a.25.25 0 00-.25.25v9.91l3.023-2.489a.75.75 0 01.954 0l3.023 2.49V2.75a.25.25 0 00-.25-.25h-6.5zM3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 01-1.227.579L8 11.722l-3.773 3.107A.75.75 0 013 14.25V2.75z"></path></svg>'
               },
             }
           },

@@ -23,15 +23,15 @@ ___
 ## Donate now
 
 ### One-time
-<div class="margin-bottom--lg">
-  <button class="button button--primary margin-right--sm">¥500</button>
-  <button class="button button--primary margin-right--sm">¥1,000</button>
-  <button class="button button--primary margin-right--sm">¥2,000</button>
+<div className="margin-bottom--lg">
+  <button className="button button--primary margin-right--sm">¥500</button>
+  <button className="button button--primary margin-right--sm">¥1,000</button>
+  <button className="button button--primary margin-right--sm">¥2,000</button>
 </div>
 
 ### Monthly
-<div class="margin-bottom--lg">
-  <button class="button button--primary margin-right--sm">¥200</button>
-  <button class="button button--primary margin-right--sm">¥500</button>
-  <button class="button button--primary margin-right--sm">¥1,000</button>
+<div className="margin-bottom--lg">
+  <button className="button button--primary margin-right--sm">¥200</button>
+  <button className="button button--primary margin-right--sm">¥500</button>
+  <button className="button button--primary margin-right--sm">¥1,000</button>
 </div>

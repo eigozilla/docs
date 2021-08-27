@@ -14,6 +14,7 @@ description: '未来完了形は、将来のある時点までに完了する行
 ## 完了・結果を表す用法
 
 :::grammar
+
 Ken **will have returned** to Japan by next month.   
 ケンは来月までに日本に戻ってくるだろう。
 <audio controls src={require('../assets/media/future-perfect-1.mp3').default} />

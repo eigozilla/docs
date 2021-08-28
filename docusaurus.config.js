@@ -12,6 +12,14 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'eigozilla', // Usually your GitHub org/user name.
   projectName: 'eigozilla', // Usually your repo name.
+  plugins: [
+    [
+      "docusaurus2-dotenv",
+      {
+        systemvars: true,
+      },
+    ],
+  ],
   themeConfig: {
     navbar: {
       title: 'Eigozilla',
@@ -147,6 +155,9 @@ module.exports = {
       { name: 'og:description', content: '完全無料・広告ゼロのオンライン英文法学習サイト。パワフルな検索で知りたい情報にアクセス。' },
       { name: 'twitter:card', content: 'summary' },
     ],
+    googleAnalytics: {
+      trackingID: 'G-6TBVXMP734'
+    }
   },
   presets: [
     [
@@ -190,19 +201,5 @@ module.exports = {
         },
       },
     ],
-  ],
-  plugins: [
-    [
-      "docusaurus2-dotenv",
-      {
-        systemvars: true,
-      },
-    ],
-    [
-      '@docusaurus/plugin-google-gtag',
-      {
-        trackingID: 'G-6TBVXMP734'
-      }
-    ]
   ],
 };

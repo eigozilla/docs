@@ -198,5 +198,11 @@ module.exports = {
         systemvars: true,
       },
     ],
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-6TBVXMP734'
+      }
+    ]
   ],
 };
